@@ -57,6 +57,8 @@ namespace BananaSpawner
         {
             /* Activate your mod here */
             /* This code will run regardless of if the mod is enabled */
+            BananaSpawner.SetActive(true);
+            BananaBoard.SetActive(true);
             inModded = true;
         }
 
